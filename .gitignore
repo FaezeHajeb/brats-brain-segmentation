@@ -1,0 +1,29 @@
+# Data (large, downloaded separately - never commit it)
+data/
+*.tar
+*.nii
+*.nii.gz
+
+# Training outputs: checkpoints, logs, predictions
+runs/
+outputs/
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+# Teaching notebook: Persian explanations, for Google Drive only.
+# It must NEVER be committed to the public repo.
+brats-colab.ipynb
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
